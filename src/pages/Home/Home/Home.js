@@ -1,12 +1,13 @@
 import React from 'react';
+import Login from '../../Login/Login/Login';
 import Header from '../Header/Header';
 import './Home.css';
 
 const Home = () => {
     return (
-        <div>
-            <h2>This is home</h2>
+        <div className="pt-4">
             <Header></Header>
+            <Login></Login>
         </div>
     );
 };
