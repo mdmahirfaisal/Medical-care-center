@@ -14,6 +14,10 @@ import NavigationBar from './pages/Shared/Navigation/NavigationBar';
 
 // font-family: 'Courgette', cursive;
 
+// #333333
+
+// #dedede
+
 
 function App() {
   return (

@@ -32,7 +32,7 @@ const NavigationBar = () => {
             fixed="top"
             className={isSticky || isCollapsed ? "shadow-sm bg-light py-2 nav-container" : "py-4"} >
             <Container className="container" fluid>
-                <Navbar.Brand as={HashLink} to="/"><Bounce bottom cascade>Medical care center</Bounce></Navbar.Brand>
+                <Navbar.Brand as={HashLink} to="/" className="text-danger fw-bold"><Bounce bottom cascade duration={2000}>Medical care </Bounce></Navbar.Brand>
                 <Navbar.Toggle onClick={() => setCollapsed(!isCollapsed ? 'show' : null)} aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className={isCollapsed}>
                     <Nav
