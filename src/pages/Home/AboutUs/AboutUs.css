@@ -9,3 +9,11 @@
     border-right: 1px solid lightgray;
     border-left: 1px solid lightgray;
 }
+
+.about-token{
+    transition: 1s;
+    }
+    .about-token:hover{
+    background-color: #ffda79;
+    border-radius: 20px;
+    }

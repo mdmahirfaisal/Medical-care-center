@@ -16,20 +16,20 @@ const AboutUs = () => {
                         for healthcare and medical business.</p></Fade>
                 <div className="d-md-flex align-items-center justify-content-center pt-3 about-icons">
                     <Fade bottom duration={2500} distance="50px">
-                        <div className="p-1">
+                        <div style={{ cursor: "pointer" }} className="p-1 about-token">
                             <i className="far fa-clock fs-1 mb-2 p-2"></i>
                             <p>Show visiting hours</p>
                             <h3 className="text-secondary">Timetable</h3>
                         </div>
 
-                        <div className="p-1 middle-div">
+                        <div style={{ cursor: "pointer" }} className="p-1 middle-div mx-1 about-token">
                             <i className="fas fa-book-medical fs-1 mb-2 p-2"></i>
                             <p>Make an appointment</p>
                             <h3 className="text-secondary">Online booking</h3>
 
                         </div>
 
-                        <div className="p-1 ">
+                        <div style={{ cursor: "pointer" }} className="p-1 about-token">
                             <i className="fas fa-sync-alt fs-1 mb-2 p-2"></i>
                             <p>Showcase your work</p>
                             <h3 className="text-secondary">Before & After</h3>
