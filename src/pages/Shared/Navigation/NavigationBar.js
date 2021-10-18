@@ -15,6 +15,7 @@ const NavigationBar = () => {
     const [isSticky, setSticky] = useState(false);
     const [isCollapsed, setCollapsed] = useState(null);
 
+
     //////////
 
     useEffect(() => {
@@ -50,6 +51,8 @@ const NavigationBar = () => {
                     </Nav>
                     <Nav className="d-sm-flex align-items-center">
                         <Link className=" text-dark fs-5 me-4" to="/home" style={{ cursor: "pointer" }}><i className="fas fa-cart-plus "></i></Link>
+
+
 
                         {user.email ?
                             <Link onClick={logOut} to="/home" style={{ cursor: "pointer" }} className="text-dark fs-5 text-decoration-none me-3"><i className="fas fa-sign-out-alt"></i></Link>

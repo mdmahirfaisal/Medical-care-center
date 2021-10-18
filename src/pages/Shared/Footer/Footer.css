@@ -1,0 +1,9 @@
+.footer-container{
+    background-color:#1e95b3 ;
+    height: 300px;
+    transition: 0.4s;
+}
+.footer-container:hover{
+    background-color:#1fc1e9 ;
+    height: 300px;
+}

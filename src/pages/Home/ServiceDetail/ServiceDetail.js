@@ -9,7 +9,7 @@ import serviceData from '../../fakeData/fakeData';
 
 const ServiceDetail = () => {
     const { serviceId } = useParams();
-    const service = serviceData.find(serDetail => serDetail.id == serviceId);
+    const service = serviceData.find(serDetail => serDetail.id === serviceId);
 
     const { name, description, img, price } = service;
 

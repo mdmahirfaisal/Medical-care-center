@@ -66,9 +66,9 @@ const useFirebase = () => {
             .finally(() => setIsLoading(false))
     };
     /// toggle sign in 
-    const toggleSignIn = e => {
-        setIsLogin(e.target.checked);
-    };
+    // const toggleSignIn = e => {
+    //     setIsLogin(e.target.checked);
+    // };
 
     // google login 
     const signInUsingGoogle = () => {
