@@ -40,9 +40,9 @@ const NavigationBar = () => {
                         style={{ maxHeight: '110px' }}
                         navbarScroll
                     >
-                        <Nav.Link className=" text-dark fs-6" as={HashLink} to="/home" onClick={() => window.scrollTo(500, 0)} active>Home</Nav.Link>
-                        <Nav.Link className=" text-dark fs-6" as={HashLink} to="/home" active>Foods</Nav.Link>
-                        <Nav.Link className=" text-dark fs-6" as={HashLink} to="/home" active>About</Nav.Link>
+                        <Nav.Link className=" text-dark fs-6" as={HashLink} to="/home#home" onClick={() => window.scrollTo(500, 0)} active>Home</Nav.Link>
+                        <Nav.Link className=" text-dark fs-6" as={HashLink} to="/home#services" active>Services</Nav.Link>
+                        <Nav.Link className=" text-dark fs-6" as={HashLink} to="/home#about" active>About us </Nav.Link>
                     </Nav>
                     <Nav className="d-sm-flex align-items-center">
                         <p className=" text-dark fs-5 me-3" as={HashLink} to="/home"><i className="fas fa-cart-plus "></i></p>

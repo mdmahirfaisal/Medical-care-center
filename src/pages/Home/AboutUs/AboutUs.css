@@ -1,0 +1,11 @@
+.about-bg{
+    background-color:#f1f1f1 ;
+}
+.about-icons{
+    font-family: 'Courgette', cursive;
+}
+
+.middle-div{
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}

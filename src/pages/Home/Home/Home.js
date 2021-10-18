@@ -1,13 +1,15 @@
 import React from 'react';
-import Login from '../../Login/Login/Login';
+import AboutUs from '../AboutUs/AboutUs';
 import Header from '../Header/Header';
+import Services from '../Services/Services';
 import './Home.css';
 
 const Home = () => {
     return (
         <div className="">
             <Header></Header>
-            <Login></Login>
+            <Services></Services>
+            <AboutUs></AboutUs>
         </div>
     );
 };
