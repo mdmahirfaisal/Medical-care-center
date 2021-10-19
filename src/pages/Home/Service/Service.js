@@ -10,17 +10,17 @@ const Service = ({ service }) => {
 
     console.log(service);
     return (
-        <div className="mb-5 text-center service-detail col-sm-12 col-md-6 col-lg-4 h-100">
+        <div className="mb-5 text-center service-detail col-sm-12 col-md-6 col-lg-4 ">
             <Fade bottom duration={2500} distance="50px">
 
                 <Link className="text-decoration-none" to={`/servicedetail/${id}`}>
                     <Card style={{ cursor: 'pointer' }}
-                        className="border-0 py-4 "
+                        className="border-0 h-100"
                     >
-                        <Card.Img variant="top" src={img} className="img-fluid" style={{ height: '50%' }} />
+                        <Card.Img variant="top" src={img} className="img-fluid service-image" style={{ height: '50%' }} />
                         <Card.Body className="pt-0">
-                            <Card.Title as="h5" className="my-3">{name}</Card.Title>
-                            <Card.Title as="h4" className="my-3 text-danger">{price}</Card.Title>
+                            <Card.Title as="h5" className="">{name}</Card.Title>
+                            <Card.Title as="h4" className=" text-danger"><i className="fas fa-euro-sign me-1"> </i> {price}</Card.Title>
                         </Card.Body>
                     </Card>
                 </Link>

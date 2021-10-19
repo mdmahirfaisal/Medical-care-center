@@ -1,11 +1,10 @@
 
 .login-bg-container{
-    background-color: rgba(0, 0, 0, 0.33);
+    background-color: #d1ccc0;
+    height: 650px;
+
 }
 
-
-.login-form-container{
-    background-color: rgb(230, 230, 230);
-    border-radius: 40px;
-    margin-bottom: 20px;
+.login-text{
+    border-radius: 50px;
 }

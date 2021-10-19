@@ -1,6 +1,6 @@
 import initializeAuthentication from "../pages/Login/Firebase/firebase.init";
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail } from "firebase/auth";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 
 initializeAuthentication()
@@ -12,6 +12,7 @@ const useFirebase = () => {
     const [password, setPassword] = useState('');
     const [isLoading, setIsLoading] = useState(true);
     const [isLogin, setIsLogin] = useState(false);
+    const [modalShow, setModalShow] = React.useState(false);
 
     console.log(email, password, user.name);
 
@@ -66,9 +67,9 @@ const useFirebase = () => {
             .finally(() => setIsLoading(false))
     };
     /// toggle sign in 
-    // const toggleSignIn = e => {
-    //     setIsLogin(e.target.checked);
-    // };
+    const toggleSignIn = e => {
+        setIsLogin(e.target.checked);
+    };
 
     // google login 
     const signInUsingGoogle = () => {
@@ -120,10 +121,11 @@ const useFirebase = () => {
             })
             .catch(error => {
                 console.log(error);
+                setError(error.message);
             })
     };
 
-    return { logOut, signInUsingGoogle, error, user, isLoading, isLogin, setError, setUser, setEmail, setPassword, setIsLogin, setIsLoading, resetPassword };
+    return { logOut, signInUsingGoogle, modalShow, setModalShow, error, user, isLoading, isLogin, setError, setUser, setEmail, setPassword, setIsLogin, setIsLoading, resetPassword, toggleSignIn, signInUsingLoginForm };
 
 };
 export default useFirebase;

@@ -22,11 +22,11 @@ const ServiceDetail = () => {
                     <h2>Service id: ({serviceId})</h2>
                     <p><Bounce bottom cascade duration={2000}>{description}</Bounce></p>
                     <div className="d-flex align-items-center">
-                        <h2 className="">$ <span className="text-danger">{price}</span></h2>
+                        <h2 className=""> <span className="text-danger"><i className="fas fa-euro-sign me-2"> </i> {price}</span></h2>
 
 
                     </div>
-                    <Link to=""><button className="btn btn-danger mt-5 rounded-pill px-3"><i className="fas fa-cart-plus "></i>By this service</button></Link>
+                    <Link to=""><button className="btn btn-danger mt-5 rounded-pill px-3"><i className="fas fa-cart-plus me-1"> </i> By this service</button></Link>
 
                 </div>
                 <div className="col-sm-12 col-md-7">

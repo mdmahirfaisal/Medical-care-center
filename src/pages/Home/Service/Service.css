@@ -1,5 +1,4 @@
 .service-detail {
-    box-sizing: border-box;
   transition: all 0.3s;
 }
 
@@ -73,3 +72,17 @@
   color: rgb(220, 14, 35);
   transition: opacity 0.5s ease-in-out, display 0.6s ease-in-out;
 }
+
+/* .service-image{
+  height: 300px;
+} */
+/* @media only screen and (max-width: 600px) {
+  .service-image{
+    height: 150px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width:900) {
+  .service-image{
+    height: 200px;
+  }
+} */
