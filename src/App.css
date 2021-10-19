@@ -1,5 +1,6 @@
 
 .App {
+  overflow: hidden;
   font-family: 'Merriweather Sans', sans-serif;
   text-align: center;
 }

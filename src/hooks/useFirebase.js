@@ -14,12 +14,11 @@ const useFirebase = () => {
     const [isLogin, setIsLogin] = useState(false);
     const [modalShow, setModalShow] = React.useState(false);
 
-    console.log(email, password, user.name);
-
     const auth = getAuth();
 
-    ///////////////
+    /////////////// login email and password
     const signInUsingLoginForm = () => {
+
         setIsLoading(true);
         if (password.length < 6) {
             setError('Password Must Contain 6 Character');
@@ -41,7 +40,7 @@ const useFirebase = () => {
         setIsLoading(true);
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
-                const user = result.user;
+                setUser(result.user);
                 console.log(user);
                 setError('');
             })
@@ -56,8 +55,7 @@ const useFirebase = () => {
         setIsLoading(true);
         createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
-                const user = result.user;
-                console.log(user);
+                setUser(result.user);
                 setError('');
                 verifyEmail();
             })
@@ -82,9 +80,10 @@ const useFirebase = () => {
         signOut(auth)
             .then(() => {
                 setUser({});
+                setError('')
             })
             .catch(error => {
-                console.log(error.message);
+                setError(error.message);
             })
     };
     /////// fire base observer 
@@ -109,6 +108,7 @@ const useFirebase = () => {
                 console.log(result);
             })
             .catch(error => {
+                setError(error.message);
                 console.log(error.message);
             })
 

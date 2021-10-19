@@ -1,9 +1,11 @@
 .footer-container{
-    background-color:#1e95b3 ;
-    height: 300px;
+    background-color: #146991;
     transition: 0.4s;
 }
 .footer-container:hover{
-    background-color:#1fc1e9 ;
-    height: 300px;
+    background-color:#177dc5 ;
 }
+
+.footer-logo{
+    height: 200px;
+  }

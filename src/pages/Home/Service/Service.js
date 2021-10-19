@@ -8,7 +8,6 @@ import './Service.css';
 const Service = ({ service }) => {
     const { name, img, price, id } = service;
 
-    console.log(service);
     return (
         <div className="mb-5 text-center service-detail col-sm-12 col-md-6 col-lg-4 ">
             <Fade bottom duration={2500} distance="50px">

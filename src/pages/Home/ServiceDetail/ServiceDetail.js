@@ -16,7 +16,7 @@ const ServiceDetail = () => {
     return (
         <div className="container service-detail-container d-flex align-self-end">
 
-            <div className="row d-md-flex align-items-center text-start">
+            <div className="row d-md-flex align-items-center text-start shadow-sm p-2">
                 <div className="col-sm-12- col-md-5">
                     <h1 className="text-primary fw-bold"><Bounce bottom cascade duration={2000}>{name}</Bounce></h1>
                     <h2>Service id: ({serviceId})</h2>
@@ -26,7 +26,7 @@ const ServiceDetail = () => {
 
 
                     </div>
-                    <Link to=""><button className="btn btn-danger mt-5 rounded-pill px-3"><i className="fas fa-cart-plus me-1"> </i> By this service</button></Link>
+                    <Link to="/addtocart"><button className="btn btn-danger mt-5 rounded-pill px-3"><i className="fas fa-cart-plus me-1"> </i> By this service</button></Link>
 
                 </div>
                 <div className="col-sm-12 col-md-7">
