@@ -5,6 +5,7 @@ import './App.css';
 import AuthProvider from './context/AuthProvider';
 import AddToCart from './pages/AddToCart/AddToCart';
 import ContactUs from './pages/Home/ContactUs/ContactUs';
+import Doctors from './pages/Home/Doctors/Doctors';
 // import AuthProvider from './context/AuthProvider';
 import Home from './pages/Home/Home/Home';
 import ServiceDetail from './pages/Home/ServiceDetail/ServiceDetail';
@@ -54,6 +55,10 @@ function App() {
             <PrivateRoute path="/contact">
               <ContactUs></ContactUs>
             </PrivateRoute>
+
+            <Route path="/doctors">
+              <Doctors></Doctors>
+            </Route>
 
 
             <Route exact path="/">

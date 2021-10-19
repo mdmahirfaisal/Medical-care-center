@@ -3,6 +3,7 @@ import './Header.css';
 import bannerImg from './image/OMUNMN0-removebg-preview.png';
 import Bounce from 'react-reveal/Bounce';
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -17,7 +18,7 @@ const Header = () => {
 
                                 <p className="text-light"><Bounce right cascade>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</Bounce></p> <br />
 
-                                <button className="btn btn-outline-light p-3 rounded-pill">Find a doctor</button>
+                                <Link to="/doctors"><button className="btn btn-outline-light p-3 rounded-pill">Find a doctor</button></Link>
                             </div>
                         </Fade>
                     </div>

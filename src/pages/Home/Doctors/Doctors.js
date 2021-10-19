@@ -1,54 +1,65 @@
 import React from 'react';
+import './Doctor.css';
 import { Carousel } from 'react-bootstrap';
 
 
 const Doctors = () => {
     return (
-        <div>
-            <h2>hi</h2>
-            <Carousel>
+        <div className="">
+            <Carousel className="slider-container">
                 <Carousel.Item interval={1000}>
                     <img
-                        className="d-block w-50"
-                        src="https://i.ibb.co/h2mcb4r/national-cancer-institute-u-Vn-Ra6m-OLOM-unsplash.png"
+                        className="d-block img-fluid slider-image"
+                        src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1704&q=80"
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h2 className="text-danger fw-bold">Explore resources for employment and wages by state and area for physicians and surgeons.</h2>
+                        <p className="text-light fw-bold">Doctor is an academic title that originates from the Latin word of the same spelling and meaning.[1] The word is originally an agentive noun of the Latin verb docēre [dɔˈkeːrɛ] 'to teach'. It has been used as an</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={500}>
+                <Carousel.Item interval={3000}>
                     <img
-                        className="d-block w-50"
-                        src="https://i.ibb.co/8g9TSC1/national-cancer-institute-DK-4-VWK1tw-unsplash.png"
+                        className="d-block img-fluid slider-image"
+                        src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1478&q=80"
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h2 className="text-danger fw-bold">Compare the job duties, education, job growth</h2>
+                        <p className="text-light fw-bold">The doctorate (Latin: doceō, lit. 'I teach') appeared in medieval Europe as a license to teach (Latin: licentia docendi) at a medieval university.[2] Its roots can be traced to the early church when the term "doctor" referred to the Apostles, church fathers and other Christian authorities who taught and interpreted the Bible.[2] .</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={2000}>
                     <img
-                        className="d-block w-50"
-                        src="https://i.ibb.co/KspPC91/images-4.png"
+                        className="d-block img-fluid slider-image"
+                        src="https://images.unsplash.com/photo-1581056771392-8a90ddb76831?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                         alt="Third slide"
                     />
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h2 className="text-danger fw-bold">Physicians and surgeons work in both clinical and nonclinical settings</h2>
+                        <p className="text-light fw-bold">The PhD was originally a degree granted by a university to learned individuals who had achieved the approval of their peers and who had demonstrated a long and productive career in the field of philosophy (in the broad sense of the term, meaning the pursuit of knowledge). The appellation "Doctor" (from Latin: teacher) was usually.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
-                        className="d-block w-50"
-                        src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png"
+                        className="d-block img-fluid  slider-image"
+                        src="https://images.unsplash.com/photo-1585139786570-905b59b4fddf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
                         alt="Third slide"
                     />
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h2 className="text-danger fw-bold">Physicians and surgeons typically need a bachelor’s degree as well as a medical degree</h2>
+                        <p className="text-light fw-bold">Despite being historically associated with doctorates in law, the title of doctor for lawyers has not customarily been used in English-speaking countries, where lawyers were traditionally not required to have a university.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item interval={2000}>
+                    <img
+                        className="d-block img-fluid slider-image "
+                        src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+                        alt="Third slide"
+                    />
+                    <Carousel.Caption>
+                        <h2 className="text-danger fw-bold">Bureau of Labor Statistics, U.S. Department of Labor,</h2>
+                        <p className="text-light fw-bold">However, the title, not being protected by law, was adopted by quacks.[15] As a result, by the mid 19th century, it was normal in the UK to omit the title "Dr" when addressing letters to those holding doctoral degrees, and instead.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
