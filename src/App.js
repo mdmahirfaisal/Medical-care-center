@@ -33,12 +33,12 @@ function App() {
           <NavigationBar></NavigationBar>
           <Switch>
 
-            <Route exact path="/home">
+            <Route path="/home">
               <Home></Home>
             </Route>
 
 
-            <Route exact path="/login">
+            <Route path="/login">
               <Login></Login>
             </Route>
 
@@ -51,7 +51,7 @@ function App() {
               <AddToCart></AddToCart>
             </PrivateRoute>
 
-            <PrivateRoute exact path="/contact">
+            <PrivateRoute path="/contact">
               <ContactUs></ContactUs>
             </PrivateRoute>
 

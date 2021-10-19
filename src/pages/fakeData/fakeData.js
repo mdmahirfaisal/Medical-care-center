@@ -25,7 +25,7 @@ const servicesData = [
     {
         "id": "4",
         "name": "Best dermatology ",
-        "img": "https://i.ibb.co/8BN0c0x/images-5.png",
+        "img": "https://i.ibb.co/hBfLg3M/image1.png",
         "price": 320,
         "description": "Empire, military hospitals called valetudinaria did exist stationed in military barracks and would serve the soldiers and slaves within the fort.[19] Evidence exists that some civilian hospitals, while unavailable to the Roman population, were occasionally privately built in extremely wealthy Roman households located in the countryside for that family, although this practice seems to have ended in 80 AD.[20]"
     },
@@ -51,7 +51,7 @@ const servicesData = [
     {
         "id": "7",
         "name": "Medicine medieval",
-        "img": "https://i.ibb.co/McYD9Qw/images-3.png",
+        "img": "https://i.ibb.co/wRW170d/images.png",
         "price": 150,
         "description": " Europe the medieval concept of Christian care evolved during the sixteenth and seventeenth centuries into a secular one. In England, after the dissolution of the monasteries in 1540 by King Henry VIII, the church abruptly ceased to be the supporter of hospitals, and only by direct petition from the citizens of"
     },
@@ -64,9 +64,30 @@ const servicesData = [
     },
     {
         "id": "9",
-        "name": "These hospitals represented",
+        "name": "These hospitals ",
         "img": "https://i.ibb.co/HrDfbYP/images-4.png",
         "price": 220,
+        "description": "These hospitals represented a turning point in the function of the institution; they began to evolve from being basic places of care for the sick to becoming centres of medical innovation and discovery and the principal place for the education and training of prospective practitioners. Some of the era's greatest surgeons and doctors worked and passed on their knowledge at the"
+    },
+    {
+        "id": "10",
+        "name": "Time table ",
+        "img": "https://i.ibb.co/HrDfbYP/images-4.png",
+        "price": 2000,
+        "description": "These hospitals represented a turning point in the function of the institution; they began to evolve from being basic places of care for the sick to becoming centres of medical innovation and discovery and the principal place for the education and training of prospective practitioners. Some of the era's greatest surgeons and doctors worked and passed on their knowledge at the"
+    },
+    {
+        "id": "11",
+        "name": "Online booking ",
+        "img": "https://i.ibb.co/HrDfbYP/images-4.png",
+        "price": 230,
+        "description": "These hospitals represented a turning point in the function of the institution; they began to evolve from being basic places of care for the sick to becoming centres of medical innovation and discovery and the principal place for the education and training of prospective practitioners. Some of the era's greatest surgeons and doctors worked and passed on their knowledge at the"
+    },
+    {
+        "id": "12",
+        "name": "Before & After ",
+        "img": "https://i.ibb.co/HrDfbYP/images-4.png",
+        "price": 150,
         "description": "These hospitals represented a turning point in the function of the institution; they began to evolve from being basic places of care for the sick to becoming centres of medical innovation and discovery and the principal place for the education and training of prospective practitioners. Some of the era's greatest surgeons and doctors worked and passed on their knowledge at the"
     },
 ];

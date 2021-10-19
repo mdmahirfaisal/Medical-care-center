@@ -14,11 +14,11 @@ const useFirebase = () => {
     const [isLogin, setIsLogin] = useState(false);
     const [modalShow, setModalShow] = React.useState(false);
 
+
     const auth = getAuth();
 
     /////////////// login email and password
     const signInUsingLoginForm = () => {
-
         setIsLoading(true);
         if (password.length < 6) {
             setError('Password Must Contain 6 Character');
@@ -34,6 +34,7 @@ const useFirebase = () => {
         else {
             signUpNewUser(email, password);
         }
+
     };
     ////////  old user
     const signInOldUser = (email, password) => {

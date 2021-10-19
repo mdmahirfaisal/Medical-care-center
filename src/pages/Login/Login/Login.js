@@ -2,42 +2,42 @@ import React from 'react';
 import './Login.css';
 // import { useForm } from "react-hook-form";
 // import { Form, Modal, Button } from 'react-bootstrap';
-import { useHistory, useLocation } from 'react-router';
+// import { useHistory, useLocation } from 'react-router';
 import useAuth from '../../../hooks/useAuth';
 import ShowModal from '../ShowModal/ShowModal';
 import { Link } from 'react-router-dom';
 
 const Login = () => {
-    const { signInUsingGoogle, setEmail, setPassword, logOut, signInUsingLoginForm, setModalShow, modalShow, toggleSignIn, error, resetPassword, setError, setUser, setIsLoading, isLogin } = useAuth();
-    /////////////
-    const location = useLocation();
-    const history = useHistory();
-    const redirect_uri = location.state?.from || '/home';
+    const { setModalShow, modalShow } = useAuth();
+    // /////////////
+    // const location = useLocation();
+    // const history = useHistory();
+    // const redirect_uri = location.state?.from || '/home';
 
-    const handleGoogleLogin = () => {
-        signInUsingGoogle()
-            .then(result => {
-                history.push(redirect_uri)
-                setUser(result.user)
-                setError('');
+    // const handleGoogleLogin = () => {
+    //     signInUsingGoogle()
+    //         .then(result => {
+    //             history.push(redirect_uri)
+    //             setUser(result.user)
+    //             setError('');
 
-            })
-            .catch(error => {
-                setError(error.message);
-            })
-            .finally(() => setIsLoading(false));
-    };
+    //         })
+    //         .catch(error => {
+    //             setError(error.message);
+    //         })
+    //         .finally(() => setIsLoading(false));
+    // };
 
-    /////////email set
-    const handleEmailChange = e => {
-        setEmail(e.target.value);
-    };
-    //////// password set 
-    const handlePasswordChange = e => {
-        setPassword(e.target.value);
-    };
+    // /////////email set
+    // const handleEmailChange = e => {
+    //     setEmail(e.target.value);
+    // };
+    // //////// password set 
+    // const handlePasswordChange = e => {
+    //     setPassword(e.target.value);
+    // };
 
-    /////
+
 
     return (
         <div className="login-bg-container pt-5">
@@ -48,18 +48,6 @@ const Login = () => {
                 <Link to="/home"><button className="btn btn-danger py-2 px-4 rounded-pill w-50 mx-auto mt-3">Back to home</button></Link>
             </div>
             <ShowModal
-                handleGoogleLogin={handleGoogleLogin}
-                toggleSignIn={toggleSignIn}
-                error={error}
-                isLogin={isLogin}
-                setError={setError}
-                logOut={logOut}
-                history={history}
-                resetPassword={resetPassword}
-                signInUsingLoginForm={signInUsingLoginForm}
-                redirect_uri={redirect_uri}
-                handlePasswordChange={handlePasswordChange}
-                handleEmailChange={handleEmailChange}
                 show={modalShow}
                 onHide={() => setModalShow(false)}
             ></ShowModal>

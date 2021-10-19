@@ -16,7 +16,7 @@ const Service = ({ service }) => {
                     <Card style={{ cursor: 'pointer' }}
                         className="border-0 h-100"
                     >
-                        <Card.Img variant="top" src={img} className="img-fluid service-image" style={{ height: '50%' }} />
+                        <Card.Img variant="top" src={img} className="img-fluid p-3 service-image" />
                         <Card.Body className="pt-0">
                             <Card.Title as="h5" className="">{name}</Card.Title>
                             <Card.Title as="h4" className=" text-danger"><i className="fas fa-euro-sign me-1"> </i> {price}</Card.Title>

@@ -2,6 +2,7 @@ import React from 'react';
 import './AboutUs.css';
 import coverImg from './image/4-doctors.PNG';
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
 
@@ -16,25 +17,23 @@ const AboutUs = () => {
                         for healthcare and medical business.</p></Fade>
                 <div className="d-md-flex align-items-center justify-content-center pt-3 about-icons">
                     <Fade bottom duration={2500} distance="50px">
-                        <div style={{ cursor: "pointer" }} className="p-1 about-token">
+                        <Link className="text-decoration-none" to="/servicedetail/10"><div style={{ cursor: "pointer" }} className="p-1 about-token">
                             <i className="far fa-clock fs-1 mb-2 p-2"></i>
                             <p>Show visiting hours</p>
                             <h3 className="text-secondary">Timetable</h3>
-                        </div>
-
-                        <div style={{ cursor: "pointer" }} className="p-1 middle-div mx-1 about-token">
-                            <i className="fas fa-book-medical fs-1 mb-2 p-2"></i>
-                            <p>Make an appointment</p>
-                            <h3 className="text-secondary">Online booking</h3>
-
-                        </div>
-
-                        <div style={{ cursor: "pointer" }} className="p-1 about-token">
-                            <i className="fas fa-sync-alt fs-1 mb-2 p-2"></i>
-                            <p>Showcase your work</p>
-                            <h3 className="text-secondary">Before & After</h3>
-
-                        </div>
+                        </div></Link>
+                        <Link className="text-decoration-none" to="/servicedetail/10">
+                            <div style={{ cursor: "pointer" }} className="p-1 middle-div mx-1 about-token">
+                                <i className="fas fa-book-medical fs-1 mb-2 p-2"></i>
+                                <p>Make an appointment</p>
+                                <h3 className="text-secondary">Online booking</h3>
+                            </div></Link>
+                        <Link className="text-decoration-none" to="/servicedetail/10">
+                            <div style={{ cursor: "pointer" }} className="p-1 about-token">
+                                <i className="fas fa-sync-alt fs-1 mb-2 p-2"></i>
+                                <p>Showcase your work</p>
+                                <h3 className="text-secondary">Before & After</h3>
+                            </div></Link>
                     </Fade>
                 </div>
             </div>
