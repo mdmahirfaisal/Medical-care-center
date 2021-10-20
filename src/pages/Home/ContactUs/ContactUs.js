@@ -8,30 +8,32 @@ const ContactUs = () => {
     }
 
     return (
-        <div className="contact-container mt-5 pt-5 container">
-            <h2>Contact us</h2>
-            <Form onSubmit={handleContactForm}>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter Name" />
+        <div className="contact-container  pt-5 ">
+            <h2 className="fw-bold text-primary pt-5">Contact us</h2>
+            <div className="container">
+                <Form onSubmit={handleContactForm} className="shadow p-4 contact-form bg-light">
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>Name</Form.Label>
+                        <Form.Control type="text" placeholder="Enter Name" />
 
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
+                        <Form.Label>Email address</Form.Label>
+                        <Form.Control type="email" placeholder="Enter email" />
 
-                    <Form.Text className="text-muted">
+                        <Form.Text className="text-muted">
 
-                    </Form.Text>
-                </Form.Group>
+                        </Form.Text>
+                    </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Comment box</Form.Label>
-                    <Form.Control type="text-field" placeholder="Password" />
-                </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicPassword">
+                        <Form.Label>Write Your Comment</Form.Label>
+                        <Form.Control style={{ height: '200px ' }} type="text" placeholder="" />
+                    </Form.Group>
 
-                <Button className=" btn btn-danger w-75 rounded-pill px-3 py-1" type="submit">
-                    Submit
-                </Button>
-            </Form>
+                    <Button className=" btn btn-danger w-75 rounded-pill px-3 py-1" type="submit">
+                        Submit
+                    </Button>
+                </Form>
+            </div>
 
         </div>
     );

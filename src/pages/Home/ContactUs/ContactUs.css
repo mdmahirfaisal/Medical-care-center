@@ -1,3 +1,7 @@
 .contact-container{
-    height: 650px;
+    height: 800px;
+    background-color: rgba(181, 219, 220, 0.681);
+}
+.contact-form{
+    border-radius: 40px;
 }
