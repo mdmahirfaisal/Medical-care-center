@@ -1,5 +1,6 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './ContactUs.css';
 
 const ContactUs = () => {
@@ -29,9 +30,11 @@ const ContactUs = () => {
                         <Form.Control style={{ height: '200px ' }} type="text" placeholder="" />
                     </Form.Group>
 
-                    <Button className=" btn btn-danger w-75 rounded-pill px-3 py-1" type="submit">
-                        Submit
-                    </Button>
+                    <Link to="/home">
+                        <Button className=" btn btn-danger w-75 rounded-pill px-3 py-1" type="submit">
+                            Submit
+                        </Button>
+                    </Link>
                 </Form>
             </div>
 

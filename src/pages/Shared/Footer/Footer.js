@@ -1,9 +1,15 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
+    const links = {
+        google: "https://www.google.com/",
+        facebook: "https://www.facebook.com/",
+        twitter: "https://twitter.com/?lang=en",
+        youtube: "https://www.youtube.com/"
+    };
+
     return (
         <div className="footer-container">
             <div className="container pt-5">
@@ -30,14 +36,16 @@ const Footer = () => {
                 </div>
             </div>
             <div className="d-flex container mt-2">
-                <Link ><button className="btn btn-danger me-3 fs-6"><i className="fab fa-google"></i></button></Link>
-                <Link ><button className="btn btn-danger me-3 fs-6"><i className="fab fa-facebook"></i></button></Link> <br />
-                <Link ><button className="btn btn-danger me-3 fs-6"><i className="fab fa-twitter-square"></i></button></Link>
-                <Link ><button className="btn btn-danger me-3 fs-6"><i className="fab fa-youtube-square"></i></button></Link>
+                <a target="_blank" href={links.google} ><button className="btn btn-danger me-3 fs-6"><i className="fab fa-google"></i></button></a>
+                <a target="_blank" href={links.facebook} ><button className="btn btn-danger me-3 fs-6"><i className="fab fa-facebook"></i></button></a> <br />
+                <a target="_blank" href={links.twitter} ><button className="btn btn-danger me-3 fs-6"><i className="fab fa-twitter-square"></i></button></a>
+                <a target="_blank" href={links.youtube} ><button className="btn btn-danger me-3 fs-6"><i className="fab fa-youtube-square"></i></button></a>
             </div>
 
             <div className=" container d-flex align-items-center">
-                <div><p className="text-light">Copyright &copy; 2021 Online Services</p></div>
+                <div className="mt-2">
+                    <small className="text-light"><i>Copyright &copy; 2021 Online Services</i></small>
+                </div>
                 <div className="ms-auto">
                     <Link className="text-decoration-none text-light ms-3">Privacy Policy.</Link>
                     <Link className="text-decoration-none text-light ms-3"> Terms of Use</Link>

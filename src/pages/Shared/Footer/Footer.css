@@ -1,9 +1,9 @@
 .footer-container{
-    background-color: #146991;
+    background-color: #153f52;
     transition: 0.4s;
 }
 .footer-container:hover{
-    background-color:#177dc5 ;
+    background-color:#0e84b7 ;
 }
 
 .footer-logo{
