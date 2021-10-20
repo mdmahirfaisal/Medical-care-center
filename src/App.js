@@ -7,7 +7,6 @@ import AddToCart from './pages/AddToCart/AddToCart';
 import AboutDetail from './pages/Home/AboutDetail/AboutDetail';
 import ContactUs from './pages/Home/ContactUs/ContactUs';
 import Doctors from './pages/Home/Doctors/Doctors';
-// import AuthProvider from './context/AuthProvider';
 import Home from './pages/Home/Home/Home';
 import ServiceDetail from './pages/Home/ServiceDetail/ServiceDetail';
 import Login from './pages/Login/Login/Login';

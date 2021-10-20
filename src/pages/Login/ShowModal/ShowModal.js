@@ -32,7 +32,7 @@ const ShowModal = (props) => {
     //// login form 
     const useLoginForm = (e) => {
         e.preventDefault()
-        signInUsingLoginForm(from, "faisal")
+        signInUsingLoginForm()
     }
 
     /////////email set
@@ -82,7 +82,7 @@ const ShowModal = (props) => {
                     <Button variant="outline-danger w-100 mb-2" type="submit">
                         {isLogin ? 'Sign in' : 'Sign up'}
                     </Button>
-                    <button className="border-0 w-50 mx-auto p-2 rounded-pill text-center" onClick={resetPassword}>Forgot your password</button>
+                    <button className="btn border-0 my-3" onClick={resetPassword}>Forgot your password</button>
 
                     <br />
                     <input className="btn btn-outline-secondary w-50 mx-auto d-block rounded-pill " type="submit" />

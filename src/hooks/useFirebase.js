@@ -14,7 +14,6 @@ const useFirebase = () => {
     const [isLogin, setIsLogin] = useState(false);
     const [modalShow, setModalShow] = React.useState(false);
 
-
     const auth = getAuth();
 
     /////////////// login email and password
@@ -42,7 +41,6 @@ const useFirebase = () => {
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
                 setUser(result.user);
-                console.log(user);
                 setError('');
             })
             .catch(error => {

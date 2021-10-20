@@ -9,35 +9,6 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
     const { setModalShow, modalShow } = useAuth();
-    // /////////////
-    // const location = useLocation();
-    // const history = useHistory();
-    // const redirect_uri = location.state?.from || '/home';
-
-    // const handleGoogleLogin = () => {
-    //     signInUsingGoogle()
-    //         .then(result => {
-    //             history.push(redirect_uri)
-    //             setUser(result.user)
-    //             setError('');
-
-    //         })
-    //         .catch(error => {
-    //             setError(error.message);
-    //         })
-    //         .finally(() => setIsLoading(false));
-    // };
-
-    // /////////email set
-    // const handleEmailChange = e => {
-    //     setEmail(e.target.value);
-    // };
-    // //////// password set 
-    // const handlePasswordChange = e => {
-    //     setPassword(e.target.value);
-    // };
-
-
 
     return (
         <div className="login-bg-container pt-5">
