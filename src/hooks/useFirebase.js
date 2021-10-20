@@ -33,7 +33,6 @@ const useFirebase = () => {
         else {
             signUpNewUser(email, password);
         }
-
     };
     ////////  old user
     const signInOldUser = (email, password) => {
@@ -72,8 +71,8 @@ const useFirebase = () => {
     const signInUsingGoogle = () => {
         const googleProvider = new GoogleAuthProvider();
         return signInWithPopup(auth, googleProvider)
-
     };
+
     //// log out 
     const logOut = () => {
         signOut(auth)
@@ -85,8 +84,8 @@ const useFirebase = () => {
                 setError(error.message);
             })
     };
-    /////// fire base observer 
 
+    /////// fire base observer 
     useEffect(() => {
         setIsLoading(true);
         const unsubscribed = onAuthStateChanged(auth, (user) => {
@@ -100,6 +99,7 @@ const useFirebase = () => {
         });
         return () => unsubscribed;
     }, []);
+
     /////////
     const verifyEmail = () => {
         sendEmailVerification(auth.currentUser)
@@ -110,8 +110,8 @@ const useFirebase = () => {
                 setError(error.message);
                 console.log(error.message);
             })
-
     };
+
     /////////
     const resetPassword = () => {
         sendPasswordResetEmail(auth, email)
@@ -125,6 +125,6 @@ const useFirebase = () => {
     };
 
     return { logOut, signInUsingGoogle, modalShow, setModalShow, error, user, isLoading, isLogin, setError, setUser, setEmail, setPassword, setIsLogin, setIsLoading, resetPassword, toggleSignIn, signInUsingLoginForm };
-
 };
+
 export default useFirebase;

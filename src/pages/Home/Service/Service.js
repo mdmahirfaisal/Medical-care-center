@@ -2,17 +2,19 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth';
 
 import './Service.css';
 
 const Service = ({ service }) => {
     const { name, img, price, id } = service;
+    const { setModalShow } = useAuth()
 
     return (
         <div className="mb-5 text-center service-detail col-sm-12 col-md-6 col-lg-4 ">
             <Fade bottom duration={2500} distance="50px">
 
-                <Link className="text-decoration-none" to={`/servicedetail/${id}`}>
+                {<Link className="text-decoration-none" onClick={() => setModalShow(true)} to={`/servicedetail/${id}`}>
                     <Card style={{ cursor: 'pointer' }}
                         className="border-0 h-100"
                     >
@@ -22,7 +24,7 @@ const Service = ({ service }) => {
                             <Card.Title as="h4" className=" text-danger"><i className="fas fa-euro-sign me-1"> </i> {price}</Card.Title>
                         </Card.Body>
                     </Card>
-                </Link>
+                </Link>}
             </Fade>
         </div>
     );
