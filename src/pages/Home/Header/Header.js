@@ -17,7 +17,7 @@ const Header = () => {
                                 <h5 className="text-light ">Your Hospital</h5>
                                 <h1 className="text-light fw-bold">We are a reliable partner</h1>
 
-                                <p className="text-light"><Bounce right cascade>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</Bounce></p> <br />
+                                <p className="text-light"><Bounce right cascade>HAP Is Here With The Lowest Rate Health Plans For Small Businesses &  & Virtual Care Health Plans. Call Now. Small Business Insurance. Talk To Your Agent. Keep Employees Healthy. Flexible Plans. Call To Talk To An Expert. HAP. Insurance coverage: HMO, PPO, EPO, Virtual Plans.</Bounce></p> <br />
 
                                 <Link to="/doctors"><button className="btn btn-outline-light p-3 rounded-pill">Find a doctor</button></Link>
                             </div>
