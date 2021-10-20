@@ -46,9 +46,9 @@ const NavigationBar = () => {
                         }
                     </Nav>
                     <Nav className="d-sm-flex align-items-center">
-                        {user.email ? <Link className=" text-dark fs-3 me-4 text-decoration-none" to="/addtocart" style={{ cursor: "pointer" }}><i className="fas fa-cart-plus"></i></Link>
+                        {user.email ? <Link className=" text-dark fs-5 me-4 text-decoration-none" to="/addtocart" style={{ cursor: "pointer" }}>Booking</Link>
                             :
-                            <Link to="/login" style={{ cursor: "pointer" }} onClick={() => setModalShow(true)} className="text-dark fs-3 me-4 text-decoration-none"><i className="fas fa-cart-plus"></i></Link>
+                            <Link to="/login" style={{ cursor: "pointer" }} onClick={() => setModalShow(true)} className="text-dark fs-5 me-4 text-decoration-none">Booking</Link>
                         }
 
                         {user.email ?

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './context/AuthProvider';
 import AddToCart from './pages/AddToCart/AddToCart';
+import AboutDetail from './pages/Home/AboutDetail/AboutDetail';
 import ContactUs from './pages/Home/ContactUs/ContactUs';
 import Doctors from './pages/Home/Doctors/Doctors';
 // import AuthProvider from './context/AuthProvider';
@@ -46,6 +47,9 @@ function App() {
 
             <PrivateRoute path="/servicedetail/:serviceId">
               <ServiceDetail></ServiceDetail>
+            </PrivateRoute>
+            <PrivateRoute path="/aboutdetail">
+              <AboutDetail></AboutDetail>
             </PrivateRoute>
 
             <PrivateRoute path="/addtocart">
