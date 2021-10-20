@@ -9,30 +9,39 @@ const ShowModal = (props) => {
     const { modalShow } = props;
 
 
-    const { signInUsingGoogle, setEmail, setPassword, signInUsingLoginForm, toggleSignIn, error, resetPassword, setError, setUser, setIsLoading, isLogin } = useAuth();
+    const { signInUsingGoogle, setEmail, setPassword, setModalShow, signInUsingLoginForm, toggleSignIn, error, resetPassword, setError, setUser, setIsLoading, isLogin, user } = useAuth();
     /////////////
     let location = useLocation();
     let history = useHistory();
     let { from } = location.state || { from: { pathname: "/" } };
 
     const handleGoogleLogin = () => {
-        signInUsingGoogle()
-            .then(result => {
-                setUser(result.user);
-                setError('');
-                history.push(from);
-
-            })
-            .catch(error => {
-                setError(error.message);
-            })
-            .finally(() => setIsLoading(false));
+        if (user.email) {
+            return setModalShow(false)
+        } else {
+            signInUsingGoogle()
+                .then(result => {
+                    setUser(result.user);
+                    setError('');
+                    history.push(from);
+                    setModalShow(false)
+                })
+                .catch(error => {
+                    setError(error.message);
+                })
+                .finally(() => setIsLoading(false));
+        }
     };
 
     //// login form 
     const useLoginForm = (e) => {
         e.preventDefault()
-        signInUsingLoginForm()
+        if (user.email) {
+            return
+        } else {
+            signInUsingLoginForm()
+            setModalShow(false)
+        }
     }
 
     /////////email set
@@ -50,19 +59,20 @@ const ShowModal = (props) => {
         <Modal
             show={modalShow}
             onHide={() => {
-                modalShow(false);
+                setModalShow(false);
             }}
             {...props}
             size="md"
             centered
-            className="modal-background"
+            className="modal-background m-0 p-0"
         >
             <Modal.Header className="border-0 fw-bold" closeButton>
+
             </Modal.Header>
-            <Modal.Body className="">
+            <Modal.Body className="modal-body bg-light " >
 
 
-                <Form onSubmit={useLoginForm} className="  p-3 ">
+                <Form onSubmit={useLoginForm} className=" p-3 ">
                     <h2 className="text-secondary w-50 mx-auto rounded fw-bold">Please, {isLogin ? 'Sign in' : 'Sign up'}</h2>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label className="text-start">Email address</Form.Label>

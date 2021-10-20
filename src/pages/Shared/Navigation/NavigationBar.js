@@ -42,19 +42,19 @@ const NavigationBar = () => {
                         <Nav.Link className=" text-dark fs-6" as={HashLink} to="/home#about" active>About</Nav.Link>
                         {
                             user.email ? <Nav.Link className=" text-dark fs-6" as={Link} to="/contact" active>Contact us </Nav.Link>
-                                : <Nav.Link as={HashLink} to="/login" onClick={() => setModalShow(true)} className="text-dark fs-6" active>Contact us</Nav.Link>
+                                : <Nav.Link as={HashLink} to="/home" onClick={() => setModalShow(true)} className="text-dark fs-6" active>Contact us</Nav.Link>
                         }
                     </Nav>
                     <Nav className="d-sm-flex align-items-center">
                         {user.email ? <Link className=" text-dark fs-5 me-4 text-decoration-none" to="/addtocart" style={{ cursor: "pointer" }}>Booking</Link>
                             :
-                            <Link to="/login" style={{ cursor: "pointer" }} onClick={() => setModalShow(true)} className="text-dark fs-5 me-4 text-decoration-none">Booking</Link>
+                            <Link to="/home" style={{ cursor: "pointer" }} onClick={() => setModalShow(true)} className="text-dark fs-5 me-4 text-decoration-none">Booking</Link>
                         }
 
                         {user.email ?
                             <Link onClick={logOut} to="/home" style={{ cursor: "pointer" }} className="text-dark fs-5 text-decoration-none me-3">Sign out <i className="ms-1 fas fa-sign-out-alt"></i></Link>
                             :
-                            <Link to="/login" style={{ cursor: "pointer" }} onClick={() => setModalShow(true)} className="text-dark fs-5 text-decoration-none">Sign up</Link>
+                            <Link to="/home" style={{ cursor: "pointer" }} onClick={() => setModalShow(true)} className="text-dark fs-5 text-decoration-none">Sign up</Link>
                         }
 
                         {
