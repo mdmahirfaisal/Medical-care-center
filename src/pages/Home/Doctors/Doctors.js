@@ -65,312 +65,314 @@ const Doctors = () => {
             </Carousel>
 
             <h1 className="text-primary fw-bold my-4  ">All Doctors Details</h1>
-            <div className="row g-4">
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                    <Card className="shadow border-0 h-100 p-3 rounded">
-                        <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
-                        <Card.Body>
-                            <Card.Title>Medical Care Center</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
-                        </Card.Body>
-                    </Card>
+            <div className="container">
+                <div className="row g-4">
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Card className="shadow border-0 h-100 p-3 rounded">
+                            <Card.Img variant="top" src="https://i.ibb.co/n3gVjbt/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.png" />
+                            <Card.Body>
+                                <Card.Title>Medical Care Center</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <button className="btn btn-danger w-50 mx-auto px-3 rounded-pill">Doctor details</button>
+                            </Card.Body>
+                        </Card>
+                    </div>
                 </div>
             </div>
         </div>
