@@ -31,7 +31,7 @@ const ServiceDetail = () => {
 
                     </div>
                     <div className="col-sm-12 col-md-7">
-                        <Zoom duration={2500}>
+                        <Zoom duration={2600}>
                             <div className="container">
                                 <img className="img-fluid p-5" src={img} alt="" />
                             </div>
